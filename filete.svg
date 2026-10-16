@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20">
+  <!-- Filete separador (dibujo propio) -->
+  <g fill="none" stroke="#6e1a12" stroke-linecap="round">
+    <path d="M10 10 H165" stroke-width="1.2"/>
+    <path d="M235 10 H390" stroke-width="1.2"/>
+    <path d="M165 10 Q180 0 192 8 M208 8 Q220 0 235 10" stroke-width="1.6"/>
+    <path d="M165 10 Q180 20 192 12 M208 12 Q220 20 235 10" stroke-width="1.6"/>
+  </g>
+  <g fill="#6e1a12">
+    <path d="M200 2 l8 8 l-8 8 l-8 -8 z"/>
+    <circle cx="10" cy="10" r="2.5"/>
+    <circle cx="390" cy="10" r="2.5"/>
+  </g>
+</svg>

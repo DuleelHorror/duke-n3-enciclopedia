@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Esquina ornamental (dibujo propio) para las paginas de la enciclopedia -->
+  <g fill="none" stroke="#6e1a12" stroke-linecap="round">
+    <path d="M6 94 V18 Q6 6 18 6 H94" stroke-width="3"/>
+    <path d="M14 94 V24 Q14 14 24 14 H94" stroke-width="1.2"/>
+    <path d="M18 18 Q34 22 40 38 Q44 52 32 54 Q22 55 24 44 Q26 36 34 40" stroke-width="2"/>
+    <path d="M18 18 Q22 34 38 40" stroke-width="1.4"/>
+    <path d="M40 22 Q56 20 66 26 Q74 32 68 38 Q62 42 58 36" stroke-width="1.8"/>
+    <path d="M22 40 Q20 56 26 66 Q32 74 38 68 Q42 62 36 58" stroke-width="1.8"/>
+  </g>
+  <g fill="#6e1a12">
+    <path d="M18 18 l7 -3 l-3 7 z"/>
+    <circle cx="34" cy="40" r="2.6"/>
+    <circle cx="58" cy="36" r="2.2"/>
+    <circle cx="36" cy="58" r="2.2"/>
+    <path d="M78 6 l4 -4 l4 4 l-4 4 z"/>
+    <path d="M6 78 l-4 4 l4 4 l4 -4 z"/>
+  </g>
+</svg>

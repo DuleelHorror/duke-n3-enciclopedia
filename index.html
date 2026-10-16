@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta name="referrer" content="no-referrer">
+<title>Enciclopedia del Megamod</title>
+<link rel="stylesheet" href="estilo.css?v=edce691e">
+</head>
+<body>
+<div id="fondo"></div>
+<header id="barra">
+  <a class="marca" href="#">Enciclopedia</a>
+  <button id="menu" class="menu" type="button" aria-expanded="false" aria-controls="nav">Capítulos</button>
+  <nav id="nav"></nav>
+  <label class="buscar"><span>Buscar</span><input id="q" type="search" placeholder="nombre, juego, tipo..." autocomplete="off" enterkeyhint="search"></label>
+</header>
+<main id="escena">
+  <div id="libro" class="libro"></div>
+</main>
+<nav id="pasos" aria-label="Pasar página"><a id="ant" class="paso">◀ Anterior</a><a id="sig" class="paso">Siguiente ▶</a></nav>
+<noscript><p class="sinjs">Esta enciclopedia necesita JavaScript (todo va dentro del sitio, sin internet).</p></noscript>
+<script src="datos.js?v=edce691e"></script>
+<script src="app.js?v=edce691e"></script>
+</body>
+</html>
