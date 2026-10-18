@@ -207,12 +207,13 @@
         (principal ? ' <i>(forma principal)</i>' : '') + '</div><div class="fnom">' + esc(f.nombre) + ' · <span class="codigo">' +
         esc(f.clave) + (principal ? '' : ' · Nº ' + n3(f.num) + ' reservado') + '</span></div>' +
         (!principal && f.desc ? '<p>' + f.desc.map(esc).join(' ') + '</p>' : '') +
+        (!principal && f.vida != null ? '<p class="fextra">Vida en esta forma: ' + esc(f.vida) + '</p>' : '') +
         (f.tam ? '<p class="fextra">Tamaño: ' + esc(f.tam) + '</p>' : '') +
         '<p class="fextra">' + esc(f.donde) + '</p></div></div>';
     }
-    return '<h2 class="seccion" id="formas">Formas de aparecer</h2><p class="nota">El mismo enemigo (' +
-      (e.vida != null ? 'misma vida, ' : '') + 'mismos ataques) colocado de ' + (e.formas.length + 1) +
-      ' maneras. En el ZooTest cada forma tiene su nicho en la sala de su familia.</p><div class="formas">' +
+    return '<h2 class="seccion" id="formas">Formas de aparecer</h2><p class="nota">El mismo enemigo (mismos ataques) ' +
+      'colocado o visto de ' + (e.formas.length + 1) + ' maneras: posturas, estados y fases. Si en alguna tiene otra ' +
+      'vida, se indica.</p><div class="formas">' +
       fila(e, e.forma_principal || 'Normal', true) + e.formas.map(function (f) { return fila(f, f.sit, false); }).join('') + '</div>';
   }
 
